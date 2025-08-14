@@ -1,0 +1,8 @@
+# -*- mode: org -*-
+#+title: Portal 2 Co-op notes
+
+* security code
+
+#+begin_example
+5-33-41-18
+#+end_example

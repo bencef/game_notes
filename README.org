@@ -1,0 +1,9 @@
+# -*- mode:org -*-
+#+OPTIONS: num:nil toc:nil ^:nil ':nil
+#+TITLE: My Video Game notes files
+#+AUTHOR: Bence Fabian <begnoc@gmail.com>
+
+* About
+
+These are my written notes to several video games.
+Obviously *SPOILERS AHEAD*, if you are planning on playing the games then these files might spoil your experience.

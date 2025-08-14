@@ -1,0 +1,176 @@
+#+options: num:nil toc:nil ^:nil
+
+#+macro: mire *Mire of the Damned*
+#+macro: haven *Free Haven*
+#+macro: dragon *Dragonsand*
+#+macro: black *Blackshire*
+#+macro: paradise *Paradise Valley*
+#+macro: krieg *Kriegspire*
+
+* Quests
+
+** TODO Find Joanne Cravitz's husband
+
+He's most likely turned to stone on the island on *Star Lake*.
+
+Joanne lives on the south part of {{{black}}}
+
+** TODO Find Nicolai
+
+Circus locations:
+| Where       | When   |
+|-------------+--------|
+| Blackshire  |        |
+| Bootleg Bay | winter |
+
+
+** TODO Lord Kilburn's shiled
+
+He got lost near on the road between {{{black}}} and {{{paradise}}}.
+
+** TODO Moon Temple
+
+Riddle at the top of the door
+
+#+begin_src emacs-lisp :exports list
+  (require 'reazon)
+
+  (reazon-run 5 (q)
+    ;; Life above all
+    (reazon-caro q 'life)
+    ;; Accuracy before might
+    (reazon-precedeso 'accuracy 'might q)
+    ;; Endurance before speed
+    (reazon-precedeso 'endurance 'speed q)
+    ;; finally luck
+    (reazon-fresh (beginning)
+      (reazon-appendo beginning '(luck) q))
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    (reazon-subseto '(life might accuracy endurance) q))
+#+end_src
+
+#+RESULTS:
+| (life accuracy might endurance speed luck)       |
+| (life accuracy endurance might speed luck)       |
+| (life accuracy might endurance speed life luck)  |
+| (life accuracy might endurance speed _0 luck)    |
+| (life accuracy might endurance speed might luck) |
+
+** TODO Twillien's youth
+
+| statue | place              | done |
+|--------+--------------------+------|
+| tiger  | Sweet Water        |      |
+| bear   | Kriegspire         |      |
+| eagle  | Dragonsand         |      |
+| wolf   | Mire of the damned |      |
+| dragon | Bootleg Bay        |      |
+
+* Skills
+
+** Trainers
+
+| skill          | expert                                                            | master                                        |
+|----------------+-------------------------------------------------------------------+-----------------------------------------------|
+| air magic      | Zodahn Delphi (Free Haven NW)                                     | Caao Salem (Mist)                             |
+| ancient weapon | Igor (New Sorpigal)                                               | Rexella (Paradise Valley)                     |
+| axe            | Stephen Biggs (Castle Ironfist)                                   | Avinril Smythers (Mire of the damned / Haunt) |
+| body building  | Olaf Berring (Castle Ironfist), Erik Salzburg (New Sorpigal)      | Jason Traveler (Free Haven)                   |
+| body magic     | Abdulai Mahgreb (New Sorpigal)                                    | Gilbert Hammer (Silver Cove)                  |
+| bow            | Helen Teal (Castle Ironfist)                                      | Desmond Weller (Kriegspire)                   |
+| chain armor    | Rich Hamburg (Castle Ironfist / south)                            | David Feather (Darkmoor)                      |
+| dagger         | Terrance Smith (Castle Ironfist / behind the inn)                 | Jules Miles (Castle Stone)                    |
+| dark magic     | Ambrose Brusse (Blackshire)                                       | Su Lang Manchu (Paradise Valley)              |
+| diplomacy      | Walter Hargreaves (Castle Ironfist), Sylvester Moore (Free Haven) | Jacques Kohl (employed by Lord Stromgard)     |
+| disarm trap    | Tyler Tailor (Castle Ironfist)                                    | Gabe Lester (Castle Stone)                    |
+| earth magic    | Taro (New Sorpigal)                                               | Revee Botania (Silver Cove)                   |
+| fire magic     | Isao Magistrus (New Sorpigal)                                     | Jezebel (Mist)                                |
+| identify       | Sheila Lumpus (New Sorpigal), Leon Lazaru (Castle Ironfist)       | Hans Gifford (Free Haven)                     |
+| learning       | Donald Retzer (New Sorpigal), Elton Astrogate (Castle Ironfist)   | John Tuck (Silver Cove)                       |
+| leather armor  | Newt Headrow (Castle Ironfist / south)                            | Arlen Sailor (Castle Stone)                   |
+| light magic    | Nicholas (Kriegspire)                                             | Ki Lo Nee (Castle Alamos)                     |
+| mace           |                                                                   | Errol Osterman (Blackshire)                   |
+| meditation     | Victor Hosen (New Sorpigal)                                       | Norio Ariganaka (Mist)                        |
+| merchant       | Livia Farrel (Free Haven)                                         | Will Ottoman (Silver Cove)                    |
+| mind magic     | Virgil Holiday (New Sorpigal)                                     | Thane Roper (Silver Cove)                     |
+| perception     | Tara D'Cathay (New Sorpigal)                                      | Marco Cligula (Darkmoor)                      |
+| plate armor    | Beniot Tellman (Castle Ironfist / south)                          | Forrest Suthers (Castle Temper)               |
+| repair         | Bernard Jacobs (Mist)                                             | Ryan Treacle (Castle Stone)                   |
+| shield         | Edgar Carpenter (Castle Ironfist / south)                         | Bownwyn Meck (Blackshire)                     |
+| spear          | Gonzalo Ramirez (Mist)                                            | Burton Rutherford (Darkmoor)                  |
+| spirit magic   | Enoch Highridge (New Sorpigal)                                    | Bishop Inquisitorio (Castle Ironfist)         |
+| staff          | Calvin Black (Mist)                                               | Jasper Rice (Silver Cove)                     |
+| sword          | Aaron Strongmun (Castle Ironfist)                                 | Guy Hampton (Blackshire)                      |
+| water magic    | Hitomi Mirumoto (Free Haven NW)                                   | Harper Collins (Mist)                         |
+
+** Requirements
+
+Usually for master level.  Skill level 7 assumed unless noted otherwise.
+
+| skill         | requirement       |
+|---------------+-------------------|
+| air magic     | Arch mage staus   |
+| body building | Endurance 30      |
+| fire magic    | Rank 12           |
+| mace          | Rank 8, Might 40  |
+| meditation    | Personality 30    |
+| shield        | Rank 10           |
+| spirit magic  | High Priest       |
+| sword         | Rank 8, Cavallier |
+| water magic   | Rank 12           |
+
+
+* Rumors
+
+*Corlagon* has moved to his estate in {{{mire}}} and became a lich
+
+*Temple of the Sun* stands on an island /east/ of {{{haven}}}
+May this be the Temple of Tsantsa in Bootleg Bay?
+
+There used to be an altar in {{{haven}}} that could /resurrect/ anybody.
+
+There's a /pyramid/ in {{{dragon}}} called the /Tomb of the Ship/.
+
+Check out the staues on the island in *Star Lake*.  The number of
+statues have been increasing.  Gorgons?  Bring Stone-to-flesh.
+
+The NE well teleports you among minotaurs in {{{krieg}}}.
+
+* Travel
+
+** Ships
+
+#+name: ships
+| from            | when     | days | to              |
+|-----------------+----------+------+-----------------|
+| Castle Ironfist | Thursday |      | New Sorpigal    |
+| Castle Ironfist | Monday   |      | Mist            |
+| Castle Ironfist | Tuesday  |    2 | New Sorpigal    |
+| Castle Ironfist | Tuesday  |    3 | Bootleg Bay     |
+| New Sorpigal    | Saturday |    3 | Mist            |
+| New Sorpigal    | Thursday |    3 | Mist            |
+| Mist            | Thursday |      | Bootleg Bay     |
+| Mist            | Friday   |      | Castle Ironfist |
+
+
+** Stables
+
+| from       | when     | days | to         |
+|------------+----------+------+------------|
+| Free Haven | Saturday |    3 | White Cap  |
+| Blackshire | Tuesday  |    3 | Free Haven |
+
+* Shrines
+
+| Skill       | Month     | Location        |
+|-------------+-----------+-----------------|
+| Speed       | June      |                 |
+| Luck        | July      | New Sorpigal    |
+| Fire        | August    |                 |
+| Electricity | September | Castle Ironfist |
+| Cold        | October   |                 |
+| Poison      | November  |                 |
+| Accuracy    |           | Free Haven (W)  |
+| Magic       |           | BlackShire      |
