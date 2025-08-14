@@ -1,0 +1,60 @@
+* Important information
+- the dropshaft (elevator) is on corridor D4 (to the north)
+** trivia
+*** History
+1) not Bush or Gore
+2) not New Delhi or Bangalore
+3) Iran-Iraq war
+4) San Diego
+5) South Africa
+6) Quebec
+7) not after 2000
+8) Gorbachev
+9) Middle East
+10) Argentina
+** the dome
+4 4 3 2 5
+* DONE take the book to the =corporation office= on =level dog=
+CLOSED: [2016-04-30 Sat 13:02]
+Level dog is the one with my barracks
+* DONE debug beach VR
+CLOSED: [2016-04-30 Sat 14:11]
+Look for bug in the program
+- halt the cpu
+- overload the program
+- misuse the program
+clues:
+- Sandals are strange have "birkenstock pumps" text
+- get ocean water to scanner
+- get the bartender drunk!!! (take his sandals maybe?)
+* DONE at 1500 training in Room T20 on level Tanya
+CLOSED: [2016-04-30 Sat 13:46]
+1) go to D6
+2) take elevator down
+3) go to the west
+Got my blue badge
+* DONE Meet Thom Seldridge in the Blue hell bar at 2000
+CLOSED: [2016-04-30 Sat 15:12]
+* DONE Find my representative Terri Nielson
+CLOSED: [2016-04-30 Sat 15:56]
+1) Wait for her to show up in Blue hell at 2200
+2) Show her the memo
+* DONE Get a green badge
+CLOSED: [2016-04-30 Sat 17:51]
+Need:
+- 2 completed mission
+- 1 unique discovery
+Call Terri if it is done (61-3808)
+** find out about the Orion initiative
+* TODO Attend meeting in T52 at 0900 every day
+* Optional
+** DONE get a flower to the receptionist
+CLOSED: [2016-04-30 Sat 13:49]
+Go to hydroponics
+got magazine
+** TODO get clues about Rolf Becker to Adriana Lafore
+$1000000 reward
+** DONE go to pedroza club
+CLOSED: [2016-04-30 Sat 15:12]
+** TODO find the leftover Heechee technology
+- look around in the ship hangars

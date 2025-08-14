@@ -1,0 +1,36 @@
+#+OPTIONS: toc:nil num:nil ^:nil ':t
+#+TITLE: Shdowrun: Dragonfall
+#+AUTHOR: Bence Fábián <begnoc@gmail.com>
+
+#+MACRO: Feur Feurschwinge
+#+MACRO: Paul Paul Amsel
+
+* Characters
+
+** Monika Scäfer
+
+   An old partner.  Died on a run, jacking in to some high security
+   network.  Her last words were {{{Feur}}}.
+
+** Paul Amsel
+
+   Our job broker.  Lives in our /hideout/.
+
+* Quests
+
+** Main story
+
+*** TODO The buyer
+
+    Find out who was the client.  *Monika* took the job from a man
+    called *Green Winters*.
+
+    Green Winters:
+    - Used to be an activist in /Flux State/ political scene.
+    - [ ] Talk to *Altuğ Burakgazi* he works at the /Cafe Cezve/ at
+      /Kreuzbasar/.  Tell him {{{Paul}}} sent me.
+
+*** TODO The orc
+
+    There was an ork at the mansion with military-grade armor and a
+    face with skin grafts.

@@ -1,0 +1,262 @@
+#+OPTIONS: toc:nil num:nil ^:nil
+#+TITLE: Might & Magic III
+#+AUTHOR: Bence Fábián <begnoc@gmail.com>
+
+* Arachoid cavern
+  :PROPERTIES:
+  :header-args: :var gongs=3 thrones=6
+  :END:
+
+  #+BEGIN_SRC emacs-lisp :outputs value
+    (defvar *funs* (list))
+
+    (defun rotate (amount elements)
+      "Rotate a list `amount' times."
+      (do ((i 0 (1+ i))
+           (beg (list) (append beg (list (car end))))
+           (end elements (cdr end)))
+          ((= i amount) (append end beg))))
+
+    (defun rotations (elements)
+      "Return all possible rotations of a list."
+      (let ((len (length elements)))
+        (loop for i from 0 to (1- len)
+              collect (rotate i elements))))
+
+    (defun permutations (elements)
+      "Return a list of all possible permutations of the input
+    list."
+      (if (>= 1 (length elements))
+          (list elements)
+        (cl-loop for rotation in (rotations elements)
+                 append (cl-loop for permutation in (permutations (cdr rotation))
+                                 collect (append (list (car rotation)) permutation)))))
+
+    (defun compose-two (f g)
+      "Compose two unary functions."
+      (lexical-let ((f f)
+                    (g g))
+        #'(lambda (x) (funcall f (funcall g x)))))
+
+    (defun compose (&rest funs)
+      "Compose unary functions."
+      (if (null funs)
+          #'identity
+        (compose-two (car funs)
+                     (apply #'compose (cdr funs)))))
+
+    (setf *funs* (list))
+  #+END_SRC
+
+  #+RESULTS:
+
+** Lord Magic
+
+   - Subtract the gongs and multiply by 52
+
+
+   #+BEGIN_SRC emacs-lisp :results value
+     (push #'(lambda (it)
+               (* 52
+                  (- it gongs)))
+           ,*funs*)
+   #+END_SRC
+
+   #+RESULTS:
+   | lambda | (it) | (* 52 (- it gongs)) |
+
+** Lord Prayer
+
+   - Multiply by number of gongs
+
+
+   #+BEGIN_SRC emacs-lisp :results value
+     (push #'(lambda (it)
+               (* it gongs))
+           ,*funs*)
+   #+END_SRC
+
+   #+RESULTS:
+   | lambda | (it) | (* it gongs)        |
+   | lambda | (it) | (* 52 (- it gongs)) |
+
+** Lord Word
+
+   - Subtract 50
+
+
+   #+BEGIN_SRC emacs-lisp :results value
+     (push #'(lambda (it)
+               (- 50 it))
+           ,*funs*)
+   #+END_SRC
+
+   #+RESULTS:
+   | lambda | (it) | (- 50 it)           |
+   | lambda | (it) | (* it gongs)        |
+   | lambda | (it) | (* 52 (- it gongs)) |
+
+** Lord Endurance
+
+   - Add number of thrones
+
+
+   #+BEGIN_SRC emacs-lisp :results value
+     (push #'(lambda (it)
+               (+ it results))
+           ,*funs*)
+   #+END_SRC
+
+   #+RESULTS:
+   | lambda | (it) | (+ it thrones)      |
+   | lambda | (it) | (- 50 it)           |
+   | lambda | (it) | (* it gongs)        |
+   | lambda | (it) | (* 52 (- it gongs)) |
+
+** Lord Speed
+
+   - Subtract 449
+
+
+   #+BEGIN_SRC emacs-lisp :results value
+     (push #'(lambda (it)
+               (- it 449))
+           ,*funs*)
+   #+END_SRC
+
+   #+RESULTS:
+   | lambda | (it) | (- it 449)          |
+   | lambda | (it) | (+ it thrones)      |
+   | lambda | (it) | (- 50 it)           |
+   | lambda | (it) | (* it gongs)        |
+   | lambda | (it) | (* 52 (- it gongs)) |
+
+** Solution
+
+   #+BEGIN_SRC emacs-lisp :results value list
+     (sort (cl-loop for compo in (permutations *funs*)
+                    collect (funcall (apply #'compose compo) 42))
+           #'<)
+   #+END_SRC
+
+   #+RESULTS:
+   - -70200
+   - -69888
+   - -69258
+   - -69246
+   - -68946
+   - -68640
+   - -68328
+   - -68328
+   - -68016
+   - -68016
+   - -28392
+   - -27768
+   - -27450
+   - -27144
+   - -27144
+   - -23192
+   - -22250
+   - -21944
+   - -21944
+   - -21320
+   - -8217
+   - -7731
+   - -7419
+   - -7319
+   - -7299
+   - -7275
+   - -7263
+   - -7263
+   - -7107
+   - -6833
+   - -6801
+   - -6789
+   - -6789
+   - -6521
+   - -6501
+   - -6489
+   - -6477
+   - -6477
+   - -6401
+   - -6377
+   - -6377
+   - -6365
+   - -6209
+   - -5903
+   - -5903
+   - -5891
+   - -5623
+   - -5603
+   - -5591
+   - -5591
+   - -5579
+   - -5523
+   - -5493
+   - -4869
+   - -4705
+   - -4705
+   - -4693
+   - -4681
+   - -4605
+   - -4605
+   - -4581
+   - -4569
+   - -4551
+   - -4551
+   - -4245
+   - -1503
+   - -605
+   - -561
+   - -549
+   - -549
+   - -293
+   - 337
+   - 337
+   - 349
+   - 369
+   - 649
+   - 649
+   - 955
+   - 1267
+   - 1579
+   - 16066
+   - 16690
+   - 16690
+   - 16996
+   - 17008
+   - 18304
+   - 18928
+   - 18928
+   - 19246
+   - 19552
+   - 62762
+   - 62762
+   - 63074
+   - 63074
+   - 63174
+   - 63174
+   - 63386
+   - 63692
+   - 63704
+   - 63992
+   - 64004
+   - 64016
+   - 64092
+   - 64116
+   - 64128
+   - 65000
+   - 65000
+   - 65624
+   - 65942
+   - 66248
+   - 69888
+   - 69888
+   - 70200
+   - 70200
+   - 70830
+   - 70842
+   - 71142
+   - 71448
+   - 71760
+   - 72072

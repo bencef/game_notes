@@ -1,0 +1,668 @@
+#+OPTIONS: toc:nil num:nil ^:nil
+#+TITLE: Might & Magic 7 notes
+#+AUTHOR: Bence Fábián <begnoc@gmail.com>
+
+* Emerald Island
+
+** DONE Dragon
+
+   Lives in a cave *NE*
+
+   Helps the town for tributes
+
+   Name: *Morcarack*
+
+   Left alive
+
+** DONE Contest
+
+   - [X] Red potion
+   - [X] Seashell
+   - [X] Longbow
+   - [X] Floor tile
+   - [X] Instrument
+   - [X] wealthy hat
+
+** DONE Game of might
+
+   Come here when you can increase might
+
+   #+name: location
+   - x :: 17604
+   - y :: 11205
+
+* Harmondale
+
+  The castle was betrayed by *Hairbaugh* by instructions of *Lord
+  Grognar*.
+
+** White cliff caves
+
+   Come here to grind for XP.
+
+** Arbiter
+
+   Near the white cliff caves a star shaped building.
+
+   Come here to retrieve stolen (see: steel) goods.
+
+* Tularean Forest
+
+  North of *Harmondale*.
+
+* Avlee
+
+  Elven kingdom.
+
+  The castle is accessible from a cave north of *Harmondale*.
+
+  See: Tularean Caves
+
+* Steadwick
+
+  Capitol of *Erathia*.
+
+* Nighon
+
+  In the Thunderfist Mountain.  A vulcano on an island.
+
+  Populated by warlocks.
+
+  Connected to *Stone City* by tunnels.  To get to Nighon, take the
+  left fork.  The right fork is dangerous.
+
+** Stone circles
+
+   There were four for each direction / season.  The eastern circle
+   got destroyed during the wars between the curches of sun and the
+   moon.
+
+* Dwarven barrows
+
+** Haunted mansion
+
+   On a plateau to Northwest.
+
+** IX
+
+   - east :: Tree
+   - north-west :: V
+   - south-west :: VII
+
+* Stone City
+
+  Entrance is on the top of a large hill in the center of the *Barrow
+  Downs*.  Where three bridges meet.
+
+** TODO Chests
+
+   Come back with higher perception and disarm trap to loot the
+   chests.
+
+** TODO Waterfall
+
+   Check it out once we are pals with the dwarfs.
+
+* Bracada
+
+  Desert
+
+  Northeast corner: *Red dwarf mines*.
+
+  Quest: turn the stone dwarfs to flesh in the eastern mines.
+
+  Beware of the griffins.
+
+* Celeste
+
+  A cloud city above *Bracada*
+
+* Promotions
+
+** Hunter -> Ranger
+
+   Who: Lysander Sweet
+
+   Location: *Bracada*
+
+** Cavalier -> Champion
+
+   Who: Leda Rowan
+
+   Location: *Bracada* near the docs.
+
+** _ -> Wizard
+
+   Who: Thomas Grey
+
+   Location: *Bracada* magic school.
+
+   Collect golem parts between *Bracada* and *Avlee*.
+
+* Skills
+
+** Sword
+
+*** grandmaster
+
+    Who: Chandric Townsaver
+
+    Location: South of *Harmondale*.
+
+    Needs: master, level 10, 8000 gold
+
+** Axe
+
+*** expert
+
+    Who: Turgon Woodsplitter
+
+    Location: South of *Harmondale*.
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Dalin Keenedge
+
+    Location: Northeast corner of *Stone City*.
+
+    Needs: expert, level 7, 5000 gold
+
+*** grandmaster
+
+    Who: Karn Stonecleaver
+
+    Location: In the snowy heights of the northeast region of
+    *Tatalia*.
+
+** Mace
+
+*** expert
+
+    Who: Aldrin Tamaloc
+
+    Location: *Stone City* E
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Brother Rotham
+
+    Location: southern region of *Tatalia*.
+
+** Spear
+
+*** grandmaster
+
+    Who: Seline Falconeye
+
+    Location: *Stone City* NE
+
+    Needs: master, level 10, 8000 gold
+
+** Bow / Archer
+
+*** expert
+
+    Who: Wil Rudyman
+
+    Location: Smiling Jack's in *Bracada*.
+
+    Needs: level 4, 2000 gold
+*** Master
+
+    Harmondale
+    - x :: - 14829
+    - y :: 8377
+
+
+    Needs: Warrior mage rank
+
+    -----
+
+    Who: Lanshee Ravensight
+
+    Location: Northern regions of *Nighon*.
+
+*** Grandmaster
+
+    Harmondale
+    - x :: - 14829
+    - y :: 8377
+
+
+    Needs: Master with skill level 10, 8000 gold
+
+** Dagger
+
+*** expert
+
+    Who: Smiling Jack
+
+    Location: Bracada
+
+    Needs: level 4, 2000
+
+*** master
+
+    Who: Aznog Slasher
+
+    Location: Northern region of *Nighon*.
+
+** Staff
+
+*** master
+
+    Who: Elsie Pederton
+
+    Location: *Bracada* near te docs.
+
+    Needs: expert, level 7, 5000 gold
+
+*** grandmaster
+
+    Who: Jillian Mithrit
+
+    Location: In the city in the NE in *Avlee*.
+
+** Water magic
+
+*** Grandmaster
+
+    Location: Harmondale on the hill
+
+    Needs: Master, skill 10, 8000 gold
+
+** Fire magic
+
+*** master
+
+    Who: Ashen Temper
+
+    Location: Harmondale
+
+    Needs: expert, level 7, 4000 gold
+
+*** grandmaster
+
+    Who: Blayze
+
+    Location: Steadwick
+
+** Air magic
+
+*** grandmaster
+
+    Who: Gayle
+
+    Location: on the bridge/castle in *Bracada*.
+
+    Needs: master, level 10, 8000 gold, Archmage or Lich
+
+** Earth magic
+
+*** expert
+
+    Who: Johanson Kern
+
+    Location: South of *Harmondale*.
+
+    Needs: level 4, 1000 gold
+
+    -----
+
+    Who: Jesper Welman
+
+    Location: *Stone City* E
+
+    Needs: level 4, 1000 gold
+
+*** master
+
+    Who: Lara Stonewright
+
+    Location: *Tularean Forest* in the City of *Pierport*.
+
+** Body magic
+
+*** expert
+
+    Who: Straton Hillsman
+
+    Location: Harmondale
+
+    Needs: level 4, 1000 gold
+
+*** master
+
+    Who: Brother Bombah
+
+    Location: Tatalia somewhere in the southern region.
+
+** Spirit magic
+
+*** expert
+
+    Who: Bertram Stillwater
+
+    Location: Harmondale
+
+    Needs: level 4, 1000 gold
+
+*** master
+
+    Who: Heather Dreamwright
+
+    Location: Steadwick
+
+** Light magic
+
+*** expert
+
+    Who: Ethan Lightsworn
+
+    Location: *Bracada* near docs.
+
+    Needs: level 4, 2000 gold, Priest of light or Archmage.
+
+*** master
+
+    Who: Helena Morningstar
+
+    Location: Cloud city of *Celeste*.
+
+** Disarm trap
+
+*** Master
+
+    Who: Lenord Skinner
+
+    Location: Harmondale hill
+
+    Needs: Expert, level 7, 2500 gold
+
+*** Grandmaster
+
+    Who: Silk quicktongue
+
+    Location: southern region of *Nighon*
+
+** Perception
+
+*** expert
+
+    Who: Gregory Weider
+
+    Location: South of *Harmondale*.
+
+    Needs: level 4, 500 gold
+
+*** master
+
+    Who: Garret Dotes
+
+    Location: *Tularean forest* in the city of *Pierport*.
+
+** Leather
+
+*** expert
+
+    Who: Douglas Iverson
+
+    Location: Harmondale
+
+    Needs: level 4, 1000 gold
+
+*** master
+
+    Who: Rabisa Nedlon
+
+    Location: norhtern regions of *Nighon*
+
+** Plate
+
+*** expert
+
+    Who: Citrias Burnkindle
+
+    Location: *Stone City* SE
+
+    Needs: level 4, 1000 gold
+
+*** grandmaster
+
+    Who: Brand the maker
+
+    Location: *Bracada* near the obelisk.
+
+    Needs: master, level 10, 7000 gold
+
+** Merchant
+
+*** expert
+
+    Who: Jobber Thain
+
+    Location: *Stone City* E
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Berthold Caverhill
+
+    Location: On the easternmost island of the *Evenmorn Islands*.
+
+*** grandmaster
+
+    Who: Brigham the Frugal
+
+    Location: On the bridge / castle in *Bracada*.
+
+    Needs: master, level 10, 8000 gold, Priest of dark/light
+
+** Alchemy
+
+*** expert
+
+    Who: Bryce Watershed
+
+    Location: *Bracada* City
+
+    Needs: level 4, 500 gold
+
+*** master
+
+    Who: Elzbet Winterspoon
+
+    Location: Western region of *Nighon*.
+
+** Learning
+
+*** expert
+
+    Who: Issac Applebee
+
+    Location: *Bracada* near docks.
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Dorothy Senjac
+
+    Location: SE region of *Nighon*.
+
+** Identify
+
+*** expert
+
+    Who: Fenton Krewlen
+
+    Location: Harmondale
+
+    Needs: level 4, 500 gold
+
+*** master
+
+    Who: Samuel Benson
+
+    Location: on a ridge in the central region of the *Bracada
+    desert*.
+
+** Repair
+
+*** expert
+
+    Who: Shane Thomas
+
+    Location: Harmondale
+
+    Needs: level 4, 500 gold
+
+    -----
+
+    Who: Balan Gizmo
+
+    Location: *Stone City* SE
+
+    Needs: level 4, 500 gold
+
+*** master
+
+    Who: Thomas Moore
+
+    Location: in the swampy delta of the southern region of
+    *Tatalia*.
+
+** Body building
+
+*** expert
+
+    Who: Trip Thorinson
+
+    Location: *Stone City* E
+
+    Needs: level 4, 500 gold
+
+    -----
+
+    Who: Kelli Hollyfield
+
+    Location: *Bracada* near the docks.
+
+    Needs: level 4, 500 gold
+
+*** master
+
+    Who: Wanda Foestryke
+
+    Location: goblin village in eastern *DeyJa Moor*.
+
+** Meditation
+
+*** master
+
+    Who: Tessa Greensward
+
+    Location: *Bracada* near docs, Lightsworn residence
+
+    Needs: expert, level 7, 2500 gold
+
+*** grandmaster
+
+    Who: Kaine
+
+    Location: in *Avlee* somewhere on an island in the central bay.
+
+** Dodging
+
+*** expert
+
+    Who: Sheldon Mist
+
+    Location: Harmondale
+
+    Needs: level 4, 2000 gold
+
+    -----
+
+    Who: Spyder Stone
+
+    Location: *Bracada*
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Oberic Crane
+
+    Location: easternmost island of the *Evenmorn Islands*.
+
+** Unarmed
+
+*** expert
+
+    Who: Puddle Stone
+
+    Location: *Bracada*.
+
+    Needs: level 4, 2000 gold
+
+*** master
+
+    Who: Ulbrecht the brawler
+
+    Location: Easternmost island of the *Evenmorn Islands*.
+
+* Stables
+
+  | From / To       | Harmondale | Tulerean Forest | Bracada | Erathia         |
+  |-----------------+------------+-----------------+---------+-----------------|
+  | Harmondale      |            | 2 days          |         | 2 days (Monday) |
+  | Tulerean Forest |            |                 |         |                 |
+  | Bracada         | 3 days     |                 |         |                 |
+  | Erathia         |            |                 |         |                 |
+
+* Ships
+
+  | from/to | Bracada            | Tatalia | Erathia |
+  |---------+--------------------+---------+---------|
+  | Bracada |                    | 4 days  |         |
+  | Tatalia |                    |         |         |
+  | Erathia | 6 days (Wednesday) |         |         |
+
+* Trading
+
+** Tularean wood
+
+   Rydric Farswell south of *Harmondale* buys them.
+
+** Arrow heads
+
+   Pip Hillier in Erathia buys them
+
+   Rydric Farswell south of *Harmondale* sells them.
+
+** Sand
+
+   Arvin in *Barrow downs* buys it.
+
+** Glass bottle
+
+   Arvin in *Barrow downs* sells it.
+
+* DONE Learn Bow
+
+  - Where :: Emerald Island Blacksmith x: 13699 y: 4414
+  - Price :: 500 gold
+
+* TODO Divine intervenion
+
+  Book of light magic.
+
+  It is underground under *Deyja*.
+
+  In the *Breeding Pit*.

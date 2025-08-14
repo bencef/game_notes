@@ -1,0 +1,139 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-02-13T12:30:11+01:00
+
+====== Shadowrun ======
+Created Saturday 13 February 2016
+
+===== Characters =====
+
+==== Sam Watts ====
+Dead. Used to run with me. Need to find out how he died.
+
+==== Dowd ====
+Dead. Also used to run with us.
+Lost during the __Renkaru__ run 3 years ago. 
+
+==== New Larry ====
+Sold us out at the __Renkaru__ run.
+His fault that __Dowd__ is dead.
+
+==== Chet ====
+__Sam__'s lawyer
+
+==== John Dresden ====
+The coroner working on __Sam__'s body.
+
+==== Emerald City Ripper ====
+Removes an organ from each of the victims.
+* first victim: heart
+* __Sam__: Liver
+* third victim: spleen
+* fourth victim: eyes (Lucy Warden. worked in the Stuffer Shack)
+* fifth victim? Several organs removed hastily. (probably lungs. Was a smoker) 
+	* maybe not a Ripper murder
+	* Spirits saw an elf mage and an augmented troll
+	* They might be working at a hospital
+	* We found a bit of the elf's blood at the crime scene.
+The removed organs are transplants
+Uses drugs and magic to stun the victims.
+The victims are still alive when the organs are harvested.
+Right handed with good medical knowledge.
+Uses a scalpel. Not typical for doctors anymore.
+There was an elf at the scene of the fourth murder asking about the body
+
+==== Silas Forsberg ====
+__Ripper__ suspect.
+* Disturbed elf
+* Faked his death
+* Left his estates to his psychiatrist: __Dr. Henry Holmes__
+
+==== Dr. Henry Holmes ====
+Was the psychiatrist of __Silas__.
+Is an elf.
+Did try to reassign himself as he felt Silas was developing an unhealthy connection.
+Current location: **Mercy mental hospital** at **Snohomish, Washington, UCAS**
+__Silas__ might have taken his identity.
+
+==== McKlusky ====
+police officer ivestigating __ECR__ murders.
+Wants to close the case as soon as possible,
+so he can get his promotion.
+
+==== Jessica ====
+Had a falling out with __Sam__, wanted to reconcile
+__Sam__'s twin sister.
+__Coyote__ has found her.
+They had a falling out as __Sam__ spent their inheritance.
+
+==== Jake Armitage ====
+Has a datajack and some Shamanistic tattoos
+Was a drinking buddy of __Sam__.
+
+==== Mrs. Kubota ====
+Owner of the __Union__.
+
+==== John Paul ====
+Leader of the Halloweeners gang. a Troll.
+
+==== Vlad ====
+A frightened drugged up ex-shaman
+
+==== Coyote ====
+Bartender at the Union
+__Cherry Bomb__ says she's been missing since
+the day of __Jake__'s murder.
+Bought 5 pounds of Zebra meat. (from Maury's meat emporium)
+Maybe code for something?
+safe combination ''342436''
+Should meet Paco at the Pike Place Market
+Bought a gun against some "paranormal animal"
+
+==== Cherry Bomb ====
+Bartender at the __Union__
+Studies Neuroprosthetycs
+
+==== Shane ====
+__Cherry__'s ex-boyfriend.
+Joined the __Universal Brotherhood__
+
+==== Mr. Kluwe ====
+Bouncer at the __Union__.
+
+==== Officer Aguirre ====
+A detective investigating the murders
+Much helpful than __McKlusky__.
+
+===== Places =====
+
+==== The Redmond Barrens ====
+A district of Seattle. The shadier kind
+
+==== The Seamstresses Union ====
+A club in the Barrens.
+
+===== Quests =====
+
+==== Find out how did Sam die ====
+__Dresden__ says he was murdered.
+Killed by the __Emerald City Ripper__
+According to __McKlusky__ his mother committed suicide recently.
+According to __Dresden__ she was murdered.
+The last time __Sam__ was seen __Armitage__ threw him out of the __Union__.
+William, the homeless man living in the alley he was murdered in 
+has seen a huge //troll// in //green surgical robes //with surgical cyberware on his right hand.
+His body was found nearby.
+[*] Visit the __Seamstresses Union__
+[*] Talk to __Coyote__
+[*] Find __Jessica__
+[ ] Call his law firm __Rogers Mengert & McCain__ when the case is solved
+
+==== Help Jake settle his score with the Halloweeners ====
+[x] Kill their leader
+We spared his life at the end
+
+==== Find Coyote ====
+[*] Go to Pike Place
+[*] Find Paco
+[*] Talk to Maury
+[*] Look for Coyote in the Royale Apartements
