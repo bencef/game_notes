@@ -1,0 +1,21 @@
+# -*- mode:org -*-
+#+OPTIONS: num:nil toc:nil ^:nil ':nil
+#+TITLE: Skald
+#+AUTHOR: Bence Fabian <begnoc@gmail.com>
+
+* Quests
+
+** DONE Kitchen
+
+Chef will teach me how to cook *melted cheese sandwich*.
+I need:
+- [X] Cured ham
+- [X] Cheddar (in the northernmost room)
+
+
+The *pantry* is west of the *cellar*.
+
+** DONE Brandy for Kydeon
+
+In the *norht-east* corner of the *cellar*.
+- [X] Brandy
